@@ -10,7 +10,7 @@ namespace ClassLibrary1
     {
         public static string GetMessage()
         {
-            return "こんにちは!" + DateTime.Now.ToLongTimeString();
+            return "こんにちは! 今" + DateTime.Now.ToLongTimeString();
         }
     }
 }
